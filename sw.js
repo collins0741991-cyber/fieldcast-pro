@@ -1,7 +1,7 @@
 /* FieldCast Pro v2 — Service Worker
    Strategy: stale-while-revalidate for app shell,
    network-first for API calls (always fresh weather data) */
-const CACHE_NAME = 'fieldcast-v2';
+const CACHE_NAME = 'fieldcast-v3';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
